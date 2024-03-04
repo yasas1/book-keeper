@@ -57,23 +57,22 @@ function Contact() {
                     <h3>Get in touch</h3>
 
                     <div style={{marginTop: "20px"}} className="material-icons"><EmailIcon/> <strong
-                        style={{marginLeft: "10px"}}>example@gmail.com </strong></div>
+                        style={{marginLeft: "10px"}}>info@snapledger.com.au</strong></div>
 
                     <div style={{marginTop: "20px"}} className="material-icons"><PhoneEnabledIcon/> <strong
-                        style={{marginLeft: "10px"}}>(+64) xxxx xxxx </strong></div>
+                        style={{marginLeft: "10px"}}>(+64) 0452589884 </strong></div>
                     <p style={{marginTop: "20px"}}>
-                        To start the conversation about any of our financial services, simply fill in the free Finance
-                        Health Check. A Let's Finance Home Loan Specialist will get back to you with a clear direction
-                        within 24 hours.
+                        To start the conversation about any of our financial services, simply fill the form and send.
+                        Snapledger specialist will get back to you with a clear direction within 24 hours.
                     </p>
 
                 </div>
 
                 <div className="right-item">
 
-                    <p>For general enquiries or to make an appointment, please use the form below.</p>
+                    <p >For general enquiries or to make an appointment, please use the form below.</p>
 
-                    <div>
+                    <div style={{marginTop: "10px"}}>
                         <form ref={form} id="contact-form" onSubmit={sendEmail}>
 
                             {/*<label htmlFor="name"> Name </label>*/}
