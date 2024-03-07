@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f5f7;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main-header {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Georgia', sans-serif;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-start {
+    text-align: start;
+}
+
+strong{
+    text-align: center;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.pricing-box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pricing-box {
+    background-color: #ffffff;
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,0.5);
+    border-radius: 4px;
+    flex: 1;
+    padding: 20px 20px 20px;
+    margin: 0 2% 0 2%;
+    min-width: 250px;
+    max-width: 350px;
+}
+
+.pricing-box:hover {
+    box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.5);
+    transform: translateY(-3px);
+}
+
+.pricing-box h5 {
+    text-transform: uppercase;
+}
+
+.price {
+    margin: 24px 0;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.price sub, .price sup {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.features-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.features-list li {
+    font-weight: 100;
+    padding: 12px 0;
+    margin-top: 8px;
+}
+
+.features-list li:not(:last-of-type) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.features-list-special {
+    padding: 0;
+    list-style-type: none;
+}
+
+.features-list-special li {
+    font-weight: 100;
+    padding: 12px 0;
+    margin-top: 8px;
+}
+
+.features-list-special li:not(:last-of-type) {
+    border-bottom: 1px solid rgb(120,120,120);
+}
+
+.pricing-box-background {
+    background-color: #000235;
+    color: #ffffff;
+}
+
+.pricing-box-bg-image {
+    background-image: url('/public/book-keep/about-cover.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: #ffffff;
+}
+
+.pricing-box-bg-image .features-list li {
+    border-bottom-color: rgba(255, 255, 255, 1);
+}
+
+.pricing-box-bg-image .btn-primary {
+    background-color: #ffffff;
+    color: #000;
+}
+
+.btn-primary {
+    border-radius: 25px;
+    border: none;
+    /*background-color: #EC1362;*/
+    background-color: #000235;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px 15px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    transition: all 0.1s ease-in-out;
+}
+
+.btn-primary:hover {
+    box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.5);
+    transform: translateY(-3px);
+}
+
+.btn-primary-special {
+    border-radius: 25px;
+    border: none;
+    /*background-color: #EC1362;*/
+    background-color: #ffffff ;
+    color: #000235;
+    cursor: pointer;
+    padding: 10px 15px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    transition: all 0.1s ease-in-out;
+    font-weight: bold;
+}
+.btn-primary-special:hover {
+    box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.5);
+    transform: translateY(-3px);
+}
+
+.service-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+    border: 1px ridge slategray;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.service:hover {
+    box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.5);
+    transform: translateY(-3px);
+}
+
+.payment-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+    border: 1px ridge slategray;
+    border-radius: 25px;
+    /*padding: 10px;*/
+    margin-top: 10px;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-special {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+    border: 1px ridge slategray;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 10px;
+    height: 280px;
+    text-align: center;
+    align-items: center;
+    /*justify-content: center;*/
+}
+
+.service-special:hover {
+    box-shadow: 0px 2px 15px 0px rgba(0,0,0,0.5);
+    transform: translateY(-3px);
+}

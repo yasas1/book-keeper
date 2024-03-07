@@ -26,7 +26,7 @@ function About() {
                     </div>
                 </div>
 
-                <img className="image-container" src="/book-keep/about-cover.jpg" alt="Jane"/>
+                <img className="image-container" src="/book-keep/snap.png" alt="Snapledger"/>
 
             </div>
 

@@ -60,11 +60,12 @@ function Contact() {
                         style={{marginLeft: "10px"}}>info@snapledger.com.au</strong></div>
 
                     <div style={{marginTop: "20px"}} className="material-icons"><PhoneEnabledIcon/> <strong
-                        style={{marginLeft: "10px"}}>(+64) 0452589884 </strong></div>
+                        style={{marginLeft: "10px"}}>(+61) 0452589884 </strong></div>
                     <p style={{marginTop: "20px"}}>
                         To start the conversation about any of our financial services, simply fill the form and send.
                         Snapledger specialist will get back to you with a clear direction within 24 hours.
                     </p>
+
 
                 </div>
 

@@ -3,19 +3,31 @@
     flex-direction: column;
     justify-content: center;
     /*font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;*/
-    font-family: 'Georgia', sans-serif;
+    /*font-family: 'Georgia', sans-serif;*/
     align-items: center;
     height: 80%;
+    flex-wrap: wrap;
 }
+
 .container-row {
     display: flex;
     flex-direction: row;
+    /*flex-wrap: wrap;*/
     justify-content: center;
 }
 
+strong {
+    font-size: large;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
 .header-item {
-    justify-content: center;
     margin: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Georgia', sans-serif;
 }
 
 .left-item {
@@ -24,6 +36,7 @@
     display: flex;
     flex-direction: column;
 }
+
 .right-item {
     flex: 60%;
     margin-left: 05px;
@@ -37,6 +50,7 @@ input::placeholder {
     opacity: 0.5;
     font-style: italic;
 }
+
 textarea::placeholder {
     font-weight: bold;
     opacity: 0.5;
@@ -57,7 +71,7 @@ textarea::placeholder {
     flex-direction: column;
 }
 
-#input-name, #input-email{
+#input-name, #input-email {
     margin-bottom: 10px;
     width: 70%;
     height: 30px;
@@ -67,6 +81,7 @@ textarea::placeholder {
     border-radius: 4px;
     background-color: #f8f8f8;
 }
+
 #input-phone {
     margin-bottom: 5px;
     width: 40%;
@@ -94,7 +109,7 @@ textarea {
 }
 
 #button {
-    background-color: darkslategray;
+    background-color: #000235;
     margin-top: 10px;
     margin-bottom: 10px;
     font-weight: bold;
@@ -108,30 +123,32 @@ textarea {
 
 label {
     margin-top: 5px;
-    line-height:24px;
-    font-size:18px;
+    line-height: 24px;
+    font-size: 18px;
 }
 
-.material-icons{
+.material-icons {
     display: inline-flex;
-    vertical-align: -6px;
+    /*vertical-align: -6px;*/
 }
 
-.submit-message{
+.submit-message {
     width: 100%;
     position: relative;
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
 }
-.submit-message .success{
+
+.submit-message .success {
     font-size: 15px;
     color: green;
     position: absolute;
     animation: buttons .3s linear;
     display: none;
 }
-.submit-message .danger{
+
+.submit-message .danger {
     font-size: 15px;
     color: red;
     position: absolute;
@@ -139,16 +156,18 @@ label {
     animation: buttons .3s linear;
     display: none;
 }
-@keyframes buttons{
-    0%{
+
+@keyframes buttons {
+    0% {
         transform: scale(0.1);
     }
-    50%{
+    50% {
         transform: scale(0.5);
     }
-    100%{
+    100% {
         transform: scale(1);
     }
 }
+
 /*font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;*/
 

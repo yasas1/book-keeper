@@ -11,6 +11,15 @@
     flex-direction: column;
 }
 
+.cover1 {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('/public/book-keep/snap.png');
+    opacity: 0.5;
+
+}
+
 .main-header {
     margin-top: 5px;
     display: flex;
@@ -27,13 +36,30 @@
     margin-top: 20px;
 }
 .item-container>* {
-    flex: 1 1 40px;
+    /*flex: 1 1 40px;*/
 }
 
+.img-container{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.img-box{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
 
 .image-container {
-    width: 40%;
+    width: 30%;
     height: 50vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -45,15 +71,16 @@
 }
 
 .detail-container {
-    width: 60%;
+    width: 70%;
     margin-left: 10px;
     padding: 10px;
     flex-wrap: wrap;
+    text-align: center;
 }
 
 
 .header1 {
-    margin: 10px;
+    margin: 5px;
     line-height: 1.9;
     word-spacing: 12px;
     letter-spacing: 2px;
@@ -97,7 +124,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    box-sizing: content-box;
+    /*box-sizing: content-box;*/
     border: 1px ridge slategray;
     border-radius: 15px;
     padding: 20px;

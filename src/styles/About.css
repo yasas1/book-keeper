@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Georgia', sans-serif;
+    /*font-family: 'Georgia', sans-serif;*/
 }
 
 .main-container {
@@ -26,7 +26,7 @@
     display: flex;
     flex-wrap: wrap;
     box-sizing: content-box;
-    border: 0.1px ridge slategray;
+    border: 1px ridge slategray;
     border-radius: 15px;
     padding: 20px;
     margin-top: 20px;
@@ -40,7 +40,7 @@
 
 .image-container {
     width: 40%;
-    height: 40vh;
+    height: 60vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
